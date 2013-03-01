@@ -1,0 +1,28 @@
+/* --------------------------------------------------
+ Body
+-------------------------------------------------- */
+body {
+	/* 文字サイズ自動調整しない */
+	-webkit-text-size-adjust: none;
+}
+
+/* --------------------------------------------------
+ コンテンツ
+-------------------------------------------------- */
+/* 角を丸く */
+#contents li.flag_check:first-child{
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+}
+#contents li.flag_check:last-child{
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+}
+#contents li.cells:first-child{
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+}
+#contents li.cells:last-child{
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+}

@@ -1,0 +1,12 @@
+775	/css
+775	/images
+775	/js
+
+664	.htaccess
+664	desc.php
+664	drinks
+664	exec.php
+664	index.html
+664	JSON.php
+664	names
+664	stage

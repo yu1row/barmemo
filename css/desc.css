@@ -1,0 +1,104 @@
+/* --------------------------------------------------
+ BODY
+-------------------------------------------------- */
+body{
+	font: 12px/18px "Lucida Grande", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック",  "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+	margin:0;
+	padding:0;
+	font-size:12px;
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#50e2ff),
+		to(#ffffff));
+	background-repeat:repeat-x;
+}
+
+/* --------------------------------------------------
+ コンテナ
+-------------------------------------------------- */
+#container {
+	margin: 0 auto;
+	width: 100%;
+	overflow: hidden;
+}
+
+/* --------------------------------------------------
+ コンテンツ
+-------------------------------------------------- */
+#contents {
+	clear: both;
+}
+
+#contents ul{
+	margin: 0;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+	list-style: none;
+	display: block;
+}
+
+#contents li {
+	overflow:hidden;
+    float:none;
+	clear:both;
+	width:100%;
+	text-align: left;
+	border:1px #8cf solid;
+	border-bottom:0px;
+	background: white;
+	margin: 0;
+	padding: 0;
+}
+
+#contents li.flag_check {
+	border:1px #8cf solid;
+}
+
+#contents li.cells {
+	cursor: pointer;
+}
+
+#contents li:last-child{
+	border:1px #8cf solid;
+}
+
+#contents li div span {
+	display:table-cell;
+	clear:none;
+	vertical-align:middle;
+	height:auto;
+}
+
+#contents li>div>span:last-child{
+    width:100%;
+}
+
+#contents li>div{
+	color:#06D;
+	display:block;
+	width:100%;
+	height:auto;
+	padding: 2px 0 2px 10px;
+	text-align:left;
+	text-decoration:none;
+	font-size:14px;
+	font-weight:bold;
+	vertical-align:middle;
+	text-shadow:
+		0px 1px 1px rgba(0,0,255,0.2),
+		0px -1px 0px rgba(255,255,255,0.7);
+}
+
+
+#contents li.cells>div:after {
+	content:url(../images/arrowR.png);
+	font-size:18px;
+	font-weight:bold;
+	padding-right:20px;
+	color:#FFF;
+	display:table-cell;
+	vertical-align:middle;
+}
